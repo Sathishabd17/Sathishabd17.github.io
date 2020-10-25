@@ -110,7 +110,7 @@
 }
 
 .about {
-	background-color: black;
+	background-color: none;
 	overflow: auto;
 	padding: 5px;
 }
@@ -125,17 +125,17 @@
 
 .about p {
 	  padding-left: 432px;
-	  color: #fff;
+	  color: none;
 	  font-family: "Poppins", sans-serif;
 	  margin:0 auto;
-	  margin-bottom:30px;
-	  font-size:18px;
+	  margin-bottom:25px;
+	  font-size: 16px;
 }
 
 .about img {
-	width: 350px;
+	width: 380px;
 	float: left;
-	margin-top: 90px;
+	margin-top: 85px;
 	margin-bottom: 35px;
 	margin-left: 40px;	
 }
@@ -148,8 +148,8 @@
 
 .skills {
 	font-family: "Poppins", sans-serif;
-	color: #aaaaaa;
-	background-color: black;
+	color: none;
+	background-color: none;
 	padding: 40px;
 }
 
@@ -177,23 +177,16 @@
   text-align: center;
   margin: 10px;
   line-height: 20px;
-  color: #fff;
   font-size: 16px;
-  background: rgba(255, 255, 255, 0.08);
-}
-
-.interestcontain .interest:hover {
-	background-color: rgba(255, 255, 255, 0.12);
 }
 
 .projects {
 	font-family: "Poppins", sans-serif;
-	color: #aaaaaa;
-	background-color: black;
+	background-color: none;
 	padding: 40px;
 }
 
-.projects h1{
+.projects .projects-header {
 	font-family: "Poppins", sans-serif;
 	color: #aaaaaa;
 	font-size: 25px;
@@ -201,7 +194,8 @@
 
 .projectscontain h1 {
 	font-family: "Poppins", sans-serif;
-	color: #fff;
+	color: #aaaaaa;
+	font-size: 25px;
 	padding-bottom: 25px;
 }
 
@@ -219,7 +213,6 @@
   text-align: center;
   margin: 10px;
   line-height: 20px;
-  color: #fff;
   font-size: 16px;
   background: rgba(255, 255, 255, 0.08);
 }
@@ -242,7 +235,8 @@
 
 .projectscontain1 h1 {
 	font-family: "Poppins", sans-serif;
-	color: #fff;
+	color: #aaaaaa;
+	font-size: 25px;
 	padding-bottom: 25px;
 }
 
@@ -255,17 +249,20 @@
   font-family: "Poppins", sans-serif;
   padding: 25px;
   padding-top: 50px;
-  width: 348px;
+  width: 500px;
   height: 400px;
   text-align: center;
   margin: 10px;
   line-height: 20px;
-  color: #fff;
   font-size: 16px;
   background: rgba(255, 255, 255, 0.08);
 }
 
-.projectscontain1 .project .pro {
+.projectscontain1 .fa {
+	margin-top: 50px;
+}
+
+.projectscontain1  .project .pro {
 	height: 230px;
 }
 
@@ -277,26 +274,24 @@
 	line-height: 24px;
 }
 
-.projectscontain1 .fa {
-	margin-top: 50px;
+.contact h3{
+	font-family: "Poppins", sans-serif;
+	color: #aaaaaa;
+	padding: 40px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .contact h1{
 	font-family: "Poppins", sans-serif;
-	color: #fff;
-	font-size: 30px;
-}
-
-.contact {
-	font-family: "Poppins", sans-serif;
-	color: #aaaaaa;
-	background-color: black;
-	padding: 40px;
+	padding-left: 40px;
+	font-size: 25px;
 }
 
 .socialcontain {
 	display: flex;
     flex-wrap: nowrap;
+	padding-left: 40px;
 }
 
 .socialcontain h1 {
@@ -311,7 +306,6 @@
   width: 50%;
   height: 150px;
   margin: 10px;
-  background: rgba(255, 255, 255, 0.08);
 }
 
 .socialcontain .fa {
@@ -329,26 +323,17 @@
 	margin-right: 40px;
 }
 
+.socialcontain .fa-github {
+	background-color: green;
+	color: white;
+}
+
 .designdiv {
 	background-color: black;
 	text-align: center;
 	color: #aaaaaa
 }
 
-.socialcontain .fa-github {
-	background-color: green;
-	color: white;
-}
-
 .designdiv .design {
 	color: green;
 }
-
-
-
-
-
-
-
-
-
