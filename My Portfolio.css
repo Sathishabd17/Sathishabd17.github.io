@@ -3,9 +3,23 @@
 	margin: 0;
 }
 
+span.menu {
+    width: 60%;
+    display: inline-block;
+    float: left;
+    height: 52px;
+}
+
+span.namelogo {
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+
 .header {
 	background-color: #4baee7;
 	position: fixed;
+	width: 100%;
 }
 
 .header .namelogo a {
@@ -14,18 +28,20 @@
 	font-size: 35px;
 	text-decoration: none;
 	padding-left: 40px;
-	padding-right: 300px;
 }
 
 .menu ul {
 	color: white;
 	display: inline-flex;
 	list-style: none;
+	width: 100%;
+	height: inherit;
 }
 
 .menu ul li {
-	width: 127.99px;
 	text-align: center;
+	width: 20%;
+	padding-top: 15px;
 }
 
 .menu ul li a{
@@ -337,12 +353,3 @@
 .designdiv .design {
 	color: green;
 }
-
-
-
-
-
-
-
-
-
