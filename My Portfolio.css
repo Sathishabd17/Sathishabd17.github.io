@@ -129,6 +129,8 @@ span.namelogo {
 	background-color: none;
 	overflow: auto;
 	padding: 5px;
+	text-align: justify;
+	padding-right: 40px;
 }
 
 .about h1{
@@ -194,6 +196,10 @@ span.namelogo {
   margin: 10px;
   line-height: 20px;
   font-size: 16px;
+}
+
+.interest:hover {
+    background-color:#18d26e;
 }
 
 .projects {
